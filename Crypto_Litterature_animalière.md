@@ -49,7 +49,7 @@ En effet, le header des fichiers PNG est toujours le même (https://fr.wikipedia
 On récupère les 8 octets (64 bits) de la signature d'un PNG et on fait un XOR avec les 64 premiers bits de notre fichier.
 
 
-```python=
+```python
 with open("chiffre.png", "r") as f:
     chiffre = f.read()
 
@@ -75,7 +75,7 @@ En effet, on voit que la série se répète à partir du 48ème caractères, vis
 ```
 On a donc trouvé la clé de chiffrement qui va nous permettre de déchiffrer le fichier.
 
-```python=
+```python
 def decipher(cipher, key):
     b = []
     for i in range(0, len(cipher), 8):
