@@ -1,10 +1,12 @@
 # Write-Up 404-CTF : Littérature animalière
 
-__Catégorie :__ Cryptanalyse
+__Catégorie :__ Cryptanalyse - Facile
 
 **Enoncé :**
 
-![](./enonce.png)
+![](images/enonce.png)
+
+**Fichiers :** chiffre.wav
 
 **Analyse :**
 
@@ -29,7 +31,7 @@ Comme par hasard, ce nombre est un multiple de 8. Il est clair que nous devons r
 
 Cependant, en faisant ça, rien...
 ```
-file decoded
+$ file decoded
 > decoded: data
 ```
 
@@ -99,7 +101,7 @@ with open("dechiffre.png", "wb") as f:
 ```
 Et voilà ! On obtient une belle image après déchiffrement.
 
-![](./flag.png)
+![](images/flag.png)
 
 **Flag :** 404CTF{1g0rfu4v3rt1Env4ut2} 
 
