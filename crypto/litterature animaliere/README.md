@@ -103,7 +103,7 @@ Et voilà ! On obtient une belle image après déchiffrement.
 
 ![](images/flag.png)
 
-**Flag :** 404CTF{1g0rfu4v3rt1Env4ut2} 
+**Flag :** `404CTF{1g0rfu4v3rt1Env4ut2}`
 
 **PS :** Le challenge était encore plus dur à flag du fait qu'il y avait une typo sur le CTFd. Merci au créateur pour avoir fait la correction, je n'aurais jamais réussi sans toi :heart: 
 
