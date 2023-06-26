@@ -1,0 +1,75 @@
+{
+    "sheeps": [
+        {
+            "name": "Ivy",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "male",
+            "treat": "follower"
+        },
+        {
+            "name": "Sweetie",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "female",
+            "treat": "follower"
+        },
+        {
+            "name": "Pine",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "male",
+            "treat": "follower"
+        },
+        {
+            "name": "Cinnamon",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "male",
+            "treat": "follower"
+        },
+        {
+            "name": "Shaggy",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "female",
+            "treat": "follower"
+        },
+        {
+            "name": "Khaki",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "female",
+            "treat": "follower"
+        },
+        {
+            "name": "Sugar",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "male",
+            "treat": "follower"
+        },
+        {
+            "name": "Sponge",
+            "canSwim": true,
+            "canFly": true,
+            "sex": "female",
+            "treat": "leader"
+        },
+        {
+            "name": "Flufkins",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "demale",
+            "treat": "follower"
+        },
+        {
+            "name": "Ruth",
+            "canSwim": false,
+            "canFly": false,
+            "sex": "male",
+            "treat": "follower"
+        }
+    ],
+    "flag": "404CTF{D35_m0utOns_D4n5_13s_NU@g3s}"
+}
