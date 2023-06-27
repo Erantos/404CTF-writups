@@ -22,6 +22,8 @@ y^2 = x^3 + ax + b
 En connaissant deux points `(x1,y1)` et `(x2,y2)` et en les injectant dans l'équation ci-dessus, nous obtenons un système à deux équations, deux inconnus. En le résolvant, nous obtenons les équations suivantes :
 ```math
 a = \frac{y_1^2 - x_1^3 - y_2^2 + x_2^3}{x_1 - x_2}
+```
+```math
 b = y^2 - x^3 - ax
 ```
 Comme p est premier et que `x1 - x2` est non nul, nous pouvons inverser `x1 - x2`. Grâce à ces équations, nous pouvons écrire le script sage suivant :
