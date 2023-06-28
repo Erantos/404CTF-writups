@@ -1,4 +1,4 @@
-# Write-Up 404-CTF : Littérature animalière
+# Write-Up 404-CTF : Dessine-moi une courbe elliptique
 
 __Catégorie :__ Cryptanalyse - Facile
 
