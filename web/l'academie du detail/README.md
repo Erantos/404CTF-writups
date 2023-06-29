@@ -10,7 +10,7 @@ __Catégorie :__ Web - Facile
 
 Dans ce challenge, nous arrivons sur la page d'accueil de ce qui semble être le site de l'Académie française.
 
-![Accueil](image.png)
+![Accueil](images/accueil.png)
 
 Ce site ne nous propose pas grand chose, si ce n'est quelques photos, une liste de mots et un endroit pour se connecter.
 
