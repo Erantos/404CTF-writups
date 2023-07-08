@@ -31,12 +31,16 @@ Le module `Amy`, quant à lui, fait un XOR de ces deux entrée `a1` et `b2` avec
 En résumé, nous avons le chiffrement suivant :
 ```math
 c_0 = m_0
-\forall i \geq 1, c_i = m_{i-1} + (m_{i-1} xor m_i)
+```
+```math
+\forall i \geq 1, c_i = m_{i-1} + (m_{i-1} \oplus m_i)
 ```
 On peut inverser les opérations pour obtenir la méthode de déchiffrement :
 ```math
 m_0 = c_0
-\forall i \geq 1, m_i = (c_{i} - m_{i-1}) xor m_{i-1}
+```
+```math
+\forall i \geq 1, m_i = (c_{i} - m_{i-1}) \oplus m_{i-1}
 ```
 Ce déchiffrement peut s'implémenter simplement avec un script Python, qui nous permet d'obtenir le flag.
 
